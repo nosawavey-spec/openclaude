@@ -12,19 +12,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onStartupFinished",
-    "onCommand:openclaude.start",
-    "onCommand:openclaude.startInWorkspaceRoot",
-    "onCommand:openclaude.openDocs",
-    "onCommand:openclaude.openSetupDocs",
-    "onCommand:openclaude.openWorkspaceProfile",
-    "onCommand:openclaude.openControlCenter",
-    "onCommand:openclaude.newChat",
-    "onCommand:openclaude.openChat",
-    "onCommand:openclaude.resumeSession",
-    "onCommand:openclaude.abortChat",
-    "onView:openclaude.controlCenter",
-    "onView:openclaude.chat"
+    "onStartupFinished"
   ],
   "main": "./src/extension.js",
   "files": [
@@ -103,12 +91,14 @@
         {
           "id": "openclaude.chat",
           "name": "Chat",
-          "type": "webview"
+          "type": "webview",
+          "icon": "media/openclaude.svg"
         },
         {
           "id": "openclaude.controlCenter",
           "name": "Control Center",
-          "type": "webview"
+          "type": "webview",
+          "icon": "media/openclaude.svg"
         }
       ]
     },
