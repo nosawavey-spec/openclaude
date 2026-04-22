@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.7.0](https://github.com/Gitlawb/openclaude/compare/v0.6.0...v0.7.0) (2026-04-22)
+
+
+### Features
+
+* add model-specific tokenizers and compression ratio detection ([#799](https://github.com/Gitlawb/openclaude/issues/799)) ([e92e527](https://github.com/Gitlawb/openclaude/commit/e92e5274b223d935d380b1fbd234cb631ab03211))
+* add streaming optimizer and structured request logging ([#703](https://github.com/Gitlawb/openclaude/issues/703)) ([5b9cd21](https://github.com/Gitlawb/openclaude/commit/5b9cd21e373823a77fd552d6e02f5d4b68ae06b1))
+* implement Hook Chains runtime integration for self-healing agent mesh MVP ([#711](https://github.com/Gitlawb/openclaude/issues/711)) ([44a2c30](https://github.com/Gitlawb/openclaude/commit/44a2c30d5f9b98027e454466c680360f6b4625fc))
+
 ## [0.6.0](https://github.com/Gitlawb/openclaude/compare/v0.5.2...v0.6.0) (2026-04-22)
 
 
